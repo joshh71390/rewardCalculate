@@ -8,8 +8,8 @@ const { getMedianPrice, getVoterAccount } = require('./utils/steemClient.js')
 
 // Creates a server which runs on port 3000 and
 // can be accessed through localhost:3000
-app.listen(3000, function () {
-    console.log('server running on port 3000')
+app.listen(80, function () {
+    console.log('server running on port 80')
 })
 app.use(cors({ origin: '*' }))
 // Function callName() is executed whenever
