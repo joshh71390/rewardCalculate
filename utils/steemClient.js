@@ -13,9 +13,4 @@ const getVoterAccount = async (account) => {
     return acc[0]
 }
 
-const  = async () => {
-    const props = await client.database.getDynamicGlobalProperties()
-    return props
-}
-
 module.exports = { getMedianPrice, getVoterAccount, getDynamicGlobalProperties }
