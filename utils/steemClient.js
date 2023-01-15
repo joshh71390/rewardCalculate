@@ -13,4 +13,4 @@ const getVoterAccount = async (account) => {
     return acc[0]
 }
 
-module.exports = { getMedianPrice, getVoterAccount, getDynamicGlobalProperties }
+module.exports = { getMedianPrice, getVoterAccount }
