@@ -46,7 +46,7 @@ async function sbd_to_percent(req, res) {
 
     // E.g : http://localhost:3000/name?firstname=Mike&lastname=Will
     // so, first name = Mike and last name = Will
-    var process = spawn('python3', ['python/sbdToVotePct.python3', sbd, prs, sp, vp])
+    var process = spawn('python3', ['python/sbdToVotePct.py', sbd, prs, sp, vp])
 
     // Takes stdout data from script which executed
     // with arguments and send this data to res object
